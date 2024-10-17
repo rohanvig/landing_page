@@ -1,0 +1,157 @@
+.parent {
+  display: flex;
+}
+.image {
+  text-align: center;
+}
+.login {
+  text-align: center;
+}
+.child1 {
+  width: 25%;
+  margin: auto;
+  padding: 40px;
+}
+
+.heading {
+ 
+  font-family: cursive;
+  color: grey;
+}
+.fields {
+  margin-top: 20px;
+}
+.subchild2 {
+  margin: auto;
+}
+.input {
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(230, 225, 225);
+  height: 40px;
+}
+.fg {
+  text-decoration: underline;
+  color: rgb(21, 21, 211);
+  font-family: cursive;
+}
+.fgpass {
+  width:100%;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: grey;
+}
+.loginnowtext {
+  font-family: cursive;
+}
+.signuptext {
+  font-family: cursive;
+}
+.loginnow {
+  padding-top: 5px;
+  text-align: center;
+  width: 100%;
+  background-color: orange;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.loginnow:hover{
+  background-color:rgb(202, 143, 34);
+  transition:1s;
+}
+.signup {
+  padding-top: 5px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  color: orange;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.signup:hover{
+  background-color:orange;
+  color: white;
+  transition: 1s;
+}
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  color: grey;
+}
+.divider-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.divider {
+  flex-grow: 1;
+  height: 1px; 
+  background-color: #eae5e5; 
+  margin: 0 10px; 
+}
+
+.or-text {
+  margin: 0 10px; 
+  color: #e0dddd;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  padding: 6px;
+}
+.input-field {
+  display: flex;
+  margin-top:20px;
+}
+.image_right {
+
+  margin: 120px;
+  margin-left: 240px;
+}
+.image-section {
+  width:70%;
+  background-color: rgb(240, 238, 238);
+}
+.incorrecte , .incorrectp{
+  color: red;
+  display:none;
+}
+.icon-passw {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  padding: 6px;
+}
+@media  screen and (max-width : 500px) {
+  .image-section{
+    display:none;
+  }
+  .fields ,.child1{
+    width:100%;
+  }
+}
+  @media  screen and (max-width : 1000px) and (min-width:500px) {
+    .image-section, .image_right{
+      width:auto;
+    }
+    .fields,.child1{
+      width:100%;
+    }
+  
+}
+
